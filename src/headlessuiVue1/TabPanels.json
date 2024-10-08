@@ -1,0 +1,29 @@
+{
+  "name": "TabPanels",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the TabPanels should render as.",
+      "description_zh": "TabPanel 应呈现为的元素或组件。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/tabs",
+  "link_zh": "https://headlessui.com/v1/vue/tabs",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "selected",
+      "params": "Boolean",
+      "description": "Whether or not the TabPanel is currently selected.",
+      "description_zh": "当前是否选择了 TabPanel。"
+    }
+  ],
+  "suggestions": [
+    "TabPanel"
+  ],
+  "filename": "TabPanels"
+}

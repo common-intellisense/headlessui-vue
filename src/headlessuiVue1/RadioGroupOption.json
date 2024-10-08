@@ -1,0 +1,60 @@
+{
+  "name": "RadioGroupOption",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the RadioGroupOption should render as.",
+      "description_zh": "RadioGroupOption 应呈现为的元素或组件。"
+    },
+    "value": {
+      "default": "—",
+      "value": "",
+      "type": "T | undefined",
+      "description": "The value of the current RadioGroupOption. The type should match the\ntype of the value in the RadioGroup component.",
+      "description_zh": "当前 RadioGroupOption 的值。类型应与\ntype 的 RadioGroup 组件中的值。"
+    },
+    "disabled": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether or not the RadioGroupOption is disabled.",
+      "description_zh": "是否禁用 RadioGroupOption。"
+    },
+    "name": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "The name used when using this component inside a form.",
+      "description_zh": "在表单中使用此组件时使用的名称。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/radio-group",
+  "link_zh": "https://headlessui.com/v1/vue/radio-group",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "active",
+      "params": "Boolean",
+      "description": "Whether or not the option is active (using the mouse or keyboard).",
+      "description_zh": "选项是否处于活动状态（使用鼠标或键盘）。"
+    },
+    {
+      "name": "checked",
+      "params": "Boolean",
+      "description": "Whether or not the current option is the checked value.",
+      "description_zh": "当前选项是否为选中的值。"
+    },
+    {
+      "name": "disabled",
+      "params": "boolean",
+      "description": "Whether or not the current option is disabled.",
+      "description_zh": "当前选项是否处于禁用状态。"
+    }
+  ],
+  "suggestions": [],
+  "filename": "RadioGroupOption"
+}

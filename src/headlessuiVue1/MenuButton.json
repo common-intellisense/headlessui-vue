@@ -1,0 +1,27 @@
+{
+  "name": "MenuButton",
+  "props": {
+    "as": {
+      "default": "button",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the MenuButton should render as.",
+      "description_zh": "MenuButton 应呈现为的元素或组件。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/menu",
+  "link_zh": "https://headlessui.com/v1/vue/menu",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "open",
+      "params": "Boolean",
+      "description": "Whether or not the Menu is open.",
+      "description_zh": "菜单是否打开。"
+    }
+  ],
+  "suggestions": [],
+  "filename": "MenuButton"
+}

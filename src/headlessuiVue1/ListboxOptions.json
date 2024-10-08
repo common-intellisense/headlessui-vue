@@ -1,0 +1,55 @@
+{
+  "name": "ListboxOptions",
+  "props": {
+    "as": {
+      "default": "ul",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the ListboxOptions should render as.",
+      "description_zh": "ListboxOptions 应呈现为的元素或组件。"
+    },
+    "static": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should ignore the internally managed open/closed\nstate.",
+      "description_zh": "元素是否应忽略内部管理的 open/closed\n州。"
+    },
+    "unmount": {
+      "default": "true",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should be unmounted or hidden based on the open/closed\nstate.",
+      "description_zh": "元素应该根据 open/closed 来卸载还是隐藏\n州。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/listbox",
+  "link_zh": "https://headlessui.com/v1/vue/listbox",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "active",
+      "params": "Boolean",
+      "description": "Whether or not the option is the active/focused option.",
+      "description_zh": "选项是否为 active/focused 选项。"
+    },
+    {
+      "name": "selected",
+      "params": "Boolean",
+      "description": "Whether or not the option is the selected option.",
+      "description_zh": "选项是否为选定选项。"
+    },
+    {
+      "name": "disabled",
+      "params": "Boolean",
+      "description": "Whether or not the option is the disabled for keyboard navigation and ARIA\npurposes.",
+      "description_zh": "该选项是否对键盘导航和 ARIA 处于禁用状态\n目的。"
+    }
+  ],
+  "suggestions": [
+    "ListboxOption"
+  ],
+  "filename": "ListboxOptions"
+}

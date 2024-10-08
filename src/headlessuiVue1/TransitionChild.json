@@ -1,0 +1,112 @@
+{
+  "name": "TransitionChild",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component to render in place of the Transition itself.",
+      "description_zh": "要渲染的元素或组件，以代替 Transition 本身。"
+    },
+    "appear": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the transition should run on initial mount.",
+      "description_zh": "转换是否应在初始挂载时运行。"
+    },
+    "unmount": {
+      "default": "true",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should be unmounted or hidden based on the show state.",
+      "description_zh": "应根据 show 状态卸载还是隐藏元素。"
+    },
+    "enter": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element during the entire enter phase.",
+      "description_zh": "在整个 enter 阶段添加到 transitioning 元素的类。"
+    },
+    "enter-from": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element before the enter phase starts.",
+      "description_zh": "在 enter 阶段开始之前要添加到 transitioning 元素的类。"
+    },
+    "enter-to": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element immediately after the enter\nphase starts.",
+      "description_zh": "在 enter 后立即添加到 transitioning 元素的类\n阶段开始。"
+    },
+    "entered": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element once the transition is done.\nThese classes will persist after that, until it's time to leave.",
+      "description_zh": "过渡完成后要添加到 transitioning 元素的类。\n这些类将在那之后持续存在，直到该离开了。"
+    },
+    "leave": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element during the entire leave phase.",
+      "description_zh": "在整个离开阶段添加到过渡元素的类。"
+    },
+    "leave-from": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element before the leave phase starts.",
+      "description_zh": "在离开阶段开始之前要添加到过渡元素的类。"
+    },
+    "leave-to": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element immediately after the leave\nphase starts.",
+      "description_zh": "在离开后立即添加到过渡元素的类\n阶段开始。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/transition",
+  "link_zh": "https://headlessui.com/v1/vue/transition",
+  "typeDetail": {},
+  "events": [
+    {
+      "name": "before-enter",
+      "description": "Emitted before the enter transition starts.",
+      "description_zh": "在 enter 过渡开始之前发出。",
+      "params": "",
+      "value": ""
+    },
+    {
+      "name": "after-enter",
+      "description": "Emitted after the enter transition finishes.",
+      "description_zh": "在 enter 过渡完成后发出。",
+      "params": "",
+      "value": ""
+    },
+    {
+      "name": "before-leave",
+      "description": "Emitted before the leave transition starts.",
+      "description_zh": "在离开过渡开始之前发出。",
+      "params": "",
+      "value": ""
+    },
+    {
+      "name": "after-leave",
+      "description": "Emitted after the leave transition finishes.",
+      "description_zh": "在离开过渡完成后发出。",
+      "params": "",
+      "value": ""
+    }
+  ],
+  "methods": [],
+  "slots": [],
+  "suggestions": [],
+  "filename": "TransitionChild"
+}

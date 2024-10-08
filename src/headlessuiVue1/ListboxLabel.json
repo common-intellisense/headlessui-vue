@@ -1,0 +1,27 @@
+{
+  "name": "ListboxLabel",
+  "props": {
+    "as": {
+      "default": "label",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the ListboxLabel should render as.",
+      "description_zh": "ListboxLabel 应呈现为的元素或组件。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/listbox",
+  "link_zh": "https://headlessui.com/v1/vue/listbox",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "open",
+      "params": "Boolean",
+      "description": "Whether or not the Listbox is open.",
+      "description_zh": "Listbox 是否打开。"
+    }
+  ],
+  "suggestions": [],
+  "filename": "ListboxLabel"
+}

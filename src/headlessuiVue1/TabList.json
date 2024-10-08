@@ -1,0 +1,27 @@
+{
+  "name": "TabList",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the TabList should render as.",
+      "description_zh": "TabList 应呈现为的元素或组件。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/tabs",
+  "link_zh": "https://headlessui.com/v1/vue/tabs",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "selected",
+      "params": "Boolean",
+      "description": "Whether or not the Tab is currently selected.",
+      "description_zh": "当前是否选择了 Tab。"
+    }
+  ],
+  "suggestions": [],
+  "filename": "TabList"
+}

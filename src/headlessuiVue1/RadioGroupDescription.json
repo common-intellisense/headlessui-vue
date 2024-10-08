@@ -1,0 +1,20 @@
+{
+  "name": "RadioGroupDescription",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the RadioGroupDescription should render as.",
+      "description_zh": "RadioGroupDescription 应呈现为的元素或组件。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/radio-group",
+  "link_zh": "https://headlessui.com/v1/vue/radio-group",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [],
+  "filename": "RadioGroupDescription"
+}

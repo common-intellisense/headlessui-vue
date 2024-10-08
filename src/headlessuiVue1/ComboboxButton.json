@@ -1,0 +1,33 @@
+{
+  "name": "ComboboxButton",
+  "props": {
+    "as": {
+      "default": "button",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the ComboboxButton should render as.",
+      "description_zh": "ComboboxButton 应呈现为的元素或组件。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/combobox",
+  "link_zh": "https://headlessui.com/v1/vue/combobox",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "open",
+      "params": "Boolean",
+      "description": "Whether or not the Combobox is open.",
+      "description_zh": "Combobox 是否打开。"
+    },
+    {
+      "name": "disabled",
+      "params": "Boolean",
+      "description": "Whether or not the Combobox is disabled.",
+      "description_zh": "Combobox 是否被禁用。"
+    }
+  ],
+  "suggestions": [],
+  "filename": "ComboboxButton"
+}

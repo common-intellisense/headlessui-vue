@@ -1,0 +1,58 @@
+{
+  "name": "TabGroup",
+  "props": {
+    "as": {
+      "default": "template",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the TabGroup should render as.",
+      "description_zh": "TabGroup 应呈现为的元素或组件。"
+    },
+    "defaultIndex": {
+      "default": "0",
+      "value": "",
+      "type": "Number",
+      "description": "The default selected index",
+      "description_zh": "默认选定的索引"
+    },
+    "selectedIndex": {
+      "default": "—",
+      "value": "",
+      "type": "number",
+      "description": "The selected index if you want to use the Tabs component as a controlled\ncomponent.",
+      "description_zh": "所选索引（如果要将 Tabs 组件用作受控\n元件。"
+    },
+    "vertical": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "When true, the orientation of the TabList will be vertical, otherwise\nit will be horizontal.",
+      "description_zh": "如果为 true，则 TabList 的方向将是垂直的，否则\n它将是水平的。"
+    },
+    "manual": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "When true, the user can only display a panel via the keyboard by first\nnavigating to it using the arrow keys, and then by pressing Enter or\nSpace. By default, panels are automatically displayed when navigated to\nvia the arrow keys. Note that this prop has no affect on mouse behavior.",
+      "description_zh": "如果为 true，则用户只能首先通过键盘显示面板\n使用箭头键导航到该地址，然后按 Enter 或\n空间。默认情况下，面板在导航到\n通过箭头键。请注意，此 prop 对鼠标行为没有影响。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/tabs",
+  "link_zh": "https://headlessui.com/v1/vue/tabs",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "selectedIndex",
+      "params": "Number",
+      "description": "The currently selected index.",
+      "description_zh": "当前选定的索引。"
+    }
+  ],
+  "suggestions": [
+    "TabList",
+    "TabPanels"
+  ],
+  "filename": "TabGroup"
+}

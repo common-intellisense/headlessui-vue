@@ -1,0 +1,46 @@
+{
+  "name": "MenuItem",
+  "props": {
+    "as": {
+      "default": "template",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the MenuItem should render as.",
+      "description_zh": "MenuItem 应呈现为的元素或组件。"
+    },
+    "disabled": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the item should be disabled for keyboard navigation and\nARIA purposes.",
+      "description_zh": "是否应为键盘导航禁用该项目，以及\nARIA 目的。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/menu",
+  "link_zh": "https://headlessui.com/v1/vue/menu",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "active",
+      "params": "Boolean",
+      "description": "Whether or not the item is the active/focused item in the list.",
+      "description_zh": "项目是否为列表中的活动/聚焦项目。"
+    },
+    {
+      "name": "disabled",
+      "params": "Boolean",
+      "description": "Whether or not the item is the disabled for keyboard navigation and ARIA\npurposes.",
+      "description_zh": "该项目是否对键盘导航和 ARIA 处于禁用状态\n目的。"
+    },
+    {
+      "name": "close",
+      "params": "() => void",
+      "description": "Closes the menu and refocuses MenuButton.",
+      "description_zh": "关闭菜单并重新聚焦 MenuButton。"
+    }
+  ],
+  "suggestions": [],
+  "filename": "MenuItem"
+}

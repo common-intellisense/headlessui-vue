@@ -1,0 +1,27 @@
+{
+  "name": "ComboboxLabel",
+  "props": {
+    "as": {
+      "default": "label",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the ComboboxLabel should render as.",
+      "description_zh": "ComboboxLabel 应呈现为的元素或组件。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/combobox",
+  "link_zh": "https://headlessui.com/v1/vue/combobox",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "open",
+      "params": "Boolean",
+      "description": "Whether or not the Combobox is open.",
+      "description_zh": "Combobox 是否打开。"
+    }
+  ],
+  "suggestions": [],
+  "filename": "ComboboxLabel"
+}

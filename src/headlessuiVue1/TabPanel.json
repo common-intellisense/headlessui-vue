@@ -1,0 +1,41 @@
+{
+  "name": "TabPanel",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the TabPanel should render as.",
+      "description_zh": "TabPanel 应呈现为的元素或组件。"
+    },
+    "static": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should ignore the selected index._Note: static and unmount can not be used at the same time.",
+      "description_zh": "元素是否应忽略所选index._Note：static 和 unmount 不能同时使用。"
+    },
+    "unmount": {
+      "default": "true",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should be unmounted or hidden based on the selected\nindex._Note: static and unmount can not be used at the same time.",
+      "description_zh": "元素是应该卸载还是隐藏基于所选\nindex._Note：static 和 unmount 不能同时使用。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/tabs",
+  "link_zh": "https://headlessui.com/v1/vue/tabs",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "selected",
+      "params": "Boolean",
+      "description": "Whether or not the TabPanel is currently selected.",
+      "description_zh": "当前是否选择了 TabPanel。"
+    }
+  ],
+  "suggestions": [],
+  "filename": "TabPanel"
+}

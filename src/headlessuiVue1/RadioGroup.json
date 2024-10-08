@@ -1,0 +1,51 @@
+{
+  "name": "RadioGroup",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the RadioGroup should render as.",
+      "description_zh": "RadioGroup 应呈现为的元素或组件。"
+    },
+    "v-model": {
+      "default": "—",
+      "value": "",
+      "type": "T",
+      "description": "The selected value.",
+      "description_zh": "所选值。"
+    },
+    "defaultValue": {
+      "default": "—",
+      "value": "",
+      "type": "T",
+      "description": "The default value when using as an uncontrolled component.",
+      "description_zh": "用作非受控零部件时的默认值。"
+    },
+    "by": {
+      "default": "—",
+      "value": "",
+      "type": "keyof T | ((a: T, z: T) => boolean)",
+      "description": "Use this to compare objects by a particular field, or pass your own\ncomparison function for complete control over how objects are compared.",
+      "description_zh": "使用此函数按特定字段比较对象，或传递您自己的\n比较功能，用于完全控制对象的比较方式。"
+    },
+    "disabled": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether or not the RadioGroup and all of its RadioGroupOption's' are\ndisabled.",
+      "description_zh": "无论 RadioGroup 及其所有 RadioGroupOption 是否为\n禁用。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/radio-group",
+  "link_zh": "https://headlessui.com/v1/vue/radio-group",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [
+    "RadioGroupOption",
+    "RadioGroupLabel"
+  ],
+  "filename": "RadioGroup"
+}

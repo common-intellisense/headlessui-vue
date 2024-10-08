@@ -1,0 +1,55 @@
+{
+  "name": "Switch",
+  "props": {
+    "as": {
+      "default": "button",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Switch should render as.",
+      "description_zh": "Switch 应渲染为的元素或组件。"
+    },
+    "v-model": {
+      "default": "—",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the switch is checked.",
+      "description_zh": "是否选中 switch。"
+    },
+    "defaultChecked": {
+      "default": "—",
+      "value": "",
+      "type": "T",
+      "description": "The default checked value when using as an uncontrolled component.",
+      "description_zh": "用作非受控零部件时的默认选中值。"
+    },
+    "name": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "The name used when using this component inside a form.",
+      "description_zh": "在表单中使用此组件时使用的名称。"
+    },
+    "value": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "The value used when using this component inside a form, if it is checked.",
+      "description_zh": "在表单中使用此组件时使用的值（如果已选中）。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/switch",
+  "link_zh": "https://headlessui.com/v1/vue/switch",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "checked",
+      "params": "Boolean",
+      "description": "Whether or not the switch is checked.",
+      "description_zh": "是否选中 switch。"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Switch"
+}

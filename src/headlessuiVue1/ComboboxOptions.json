@@ -1,0 +1,62 @@
+{
+  "name": "ComboboxOptions",
+  "props": {
+    "as": {
+      "default": "ul",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the ComboboxOptions should render as.",
+      "description_zh": "ComboboxOptions 应呈现为的元素或组件。"
+    },
+    "static": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should ignore the internally managed open/closed\nstate.",
+      "description_zh": "元素是否应忽略内部管理的 open/closed\n州。"
+    },
+    "unmount": {
+      "default": "true",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should be unmounted or hidden based on the open/closed\nstate.",
+      "description_zh": "元素应该根据 open/closed 来卸载还是隐藏\n州。"
+    },
+    "hold": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether or not the active option should stay active even when the mouse\nleaves the active option.",
+      "description_zh": "活动选项是否应保持活动状态，即使鼠标\n保留 active 选项。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/combobox",
+  "link_zh": "https://headlessui.com/v1/vue/combobox",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "active",
+      "params": "Boolean",
+      "description": "Whether or not the option is the active/focused option.",
+      "description_zh": "选项是否为 active/focused 选项。"
+    },
+    {
+      "name": "selected",
+      "params": "Boolean",
+      "description": "Whether or not the option is the selected option.",
+      "description_zh": "选项是否为选定选项。"
+    },
+    {
+      "name": "disabled",
+      "params": "Boolean",
+      "description": "Whether or not the option is the disabled for keyboard navigation and ARIA\npurposes.",
+      "description_zh": "该选项是否对键盘导航和 ARIA 处于禁用状态\n目的。"
+    }
+  ],
+  "suggestions": [
+    "ComboboxOption"
+  ],
+  "filename": "ComboboxOptions"
+}

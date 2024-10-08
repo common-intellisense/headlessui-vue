@@ -1,0 +1,33 @@
+{
+  "name": "ListboxButton",
+  "props": {
+    "as": {
+      "default": "button",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the ListboxButton should render as.",
+      "description_zh": "ListboxButton 应呈现为的元素或组件。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/listbox",
+  "link_zh": "https://headlessui.com/v1/vue/listbox",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "open",
+      "params": "Boolean",
+      "description": "Whether or not the Listbox is open.",
+      "description_zh": "Listbox 是否打开。"
+    },
+    {
+      "name": "disabled",
+      "params": "Boolean",
+      "description": "Whether or not the Listbox is disabled.",
+      "description_zh": "列表框是否被禁用。"
+    }
+  ],
+  "suggestions": [],
+  "filename": "ListboxButton"
+}

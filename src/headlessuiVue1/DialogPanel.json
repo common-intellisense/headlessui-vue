@@ -1,0 +1,37 @@
+{
+  "name": "DialogPanel",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the DialogPanel should render as.",
+      "description_zh": "DialogPanel 应呈现为的元素或组件。"
+    },
+    ":open": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the dialog is open.",
+      "description_zh": "对话框是否打开。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/dialog",
+  "link_zh": "https://headlessui.com/v1/vue/dialog",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "open",
+      "params": "Boolean",
+      "description": "Whether or not the dialog is open.",
+      "description_zh": "对话框是否打开。"
+    }
+  ],
+  "suggestions": [
+    "DialogTitle",
+    "DialogDescription"
+  ],
+  "filename": "DialogPanel"
+}

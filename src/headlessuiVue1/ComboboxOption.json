@@ -1,0 +1,53 @@
+{
+  "name": "ComboboxOption",
+  "props": {
+    "value": {
+      "default": "—",
+      "value": "",
+      "type": "T",
+      "description": "The option value.",
+      "description_zh": "选项值。"
+    },
+    "as": {
+      "default": "li",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the ComboboxOption should render as.",
+      "description_zh": "ComboboxOption 应呈现为的元素或组件。"
+    },
+    "disabled": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the option should be disabled for keyboard navigation and\nARIA purposes.",
+      "description_zh": "是否应为键盘导航禁用该选项，以及\nARIA 目的。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/combobox",
+  "link_zh": "https://headlessui.com/v1/vue/combobox",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "active",
+      "params": "Boolean",
+      "description": "Whether or not the option is the active/focused option.",
+      "description_zh": "选项是否为 active/focused 选项。"
+    },
+    {
+      "name": "selected",
+      "params": "Boolean",
+      "description": "Whether or not the option is the selected option.",
+      "description_zh": "选项是否为选定选项。"
+    },
+    {
+      "name": "disabled",
+      "params": "Boolean",
+      "description": "Whether or not the option is the disabled for keyboard navigation and ARIA\npurposes.",
+      "description_zh": "该选项是否对键盘导航和 ARIA 处于禁用状态\n目的。"
+    }
+  ],
+  "suggestions": [],
+  "filename": "ComboboxOption"
+}

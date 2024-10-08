@@ -1,0 +1,55 @@
+{
+  "name": "MenuItems",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the MenuItems should render as.",
+      "description_zh": "MenuItems 应呈现为的元素或组件。"
+    },
+    "static": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should ignore the internally managed open/closed\nstate.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it.",
+      "description_zh": "元素是否应忽略内部管理的 open/closed\n州。注意：static 和 unmount 不能同时使用。您将\n如果尝试这样做，则会收到 TypeScript 错误。"
+    },
+    "unmount": {
+      "default": "true",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should be unmounted or hidden based on the\nopen/closed state.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it.",
+      "description_zh": "元素应该被卸载还是隐藏，这取决于\n打开/关闭状态。注意：static 和 unmount 不能同时使用。您将\n如果尝试这样做，则会收到 TypeScript 错误。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/menu",
+  "link_zh": "https://headlessui.com/v1/vue/menu",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [
+    {
+      "name": "active",
+      "params": "Boolean",
+      "description": "Whether or not the item is the active/focused item in the list.",
+      "description_zh": "项目是否为列表中的活动/聚焦项目。"
+    },
+    {
+      "name": "disabled",
+      "params": "Boolean",
+      "description": "Whether or not the item is the disabled for keyboard navigation and ARIA\npurposes.",
+      "description_zh": "该项目是否对键盘导航和 ARIA 处于禁用状态\n目的。"
+    },
+    {
+      "name": "close",
+      "params": "() => void",
+      "description": "Closes the menu and refocuses MenuButton.",
+      "description_zh": "关闭菜单并重新聚焦 MenuButton。"
+    }
+  ],
+  "suggestions": [
+    "MenuItem"
+  ],
+  "filename": "MenuItems"
+}

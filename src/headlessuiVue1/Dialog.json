@@ -1,0 +1,60 @@
+{
+  "name": "Dialog",
+  "props": {
+    "open": {
+      "default": "—",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the Dialog is open or not.",
+      "description_zh": "对话框是否打开。"
+    },
+    "initialFocus": {
+      "default": "—",
+      "value": "",
+      "type": "HTMLElement",
+      "description": "A ref to an element that should receive focus first.",
+      "description_zh": "对应首先接收 focus 的元素的 ref。"
+    },
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Dialog should render as.",
+      "description_zh": "Dialog 应呈现为的元素或组件。"
+    },
+    "static": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should ignore the internally managed open/closed\nstate.",
+      "description_zh": "元素是否应忽略内部管理的 open/closed\n州。"
+    },
+    "unmount": {
+      "default": "true",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should be unmounted or hidden based on the open/closed\nstate.",
+      "description_zh": "元素应该根据 open/closed 来卸载还是隐藏\n州。"
+    }
+  },
+  "link": "https://headlessui.com/v1/vue/dialog",
+  "link_zh": "https://headlessui.com/v1/vue/dialog",
+  "typeDetail": {},
+  "events": [
+    {
+      "name": "close",
+      "description": "Emitted when the Dialog is dismissed (via outside click of the\nDialogPanel or by pressing the Escape key). Typically used to close\nthe dialog by setting open to false.",
+      "description_zh": "在关闭 Dialog 时发出（通过外部单击\nDialogPanel 或按 Escape 键）。通常用于关闭\n通过将 Open 设置为 false 来显示对话框。",
+      "params": "",
+      "value": ""
+    }
+  ],
+  "methods": [],
+  "slots": [],
+  "suggestions": [
+    "DialogTitle",
+    "DialogDescription",
+    "DialogPanel"
+  ],
+  "filename": "Dialog"
+}
